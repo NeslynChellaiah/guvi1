@@ -1,5 +1,5 @@
 a,b = input().split()
-a = int(a)
+a = int(a)+1
 b = int(b)+1
 for i in range (a,b):
     if (i%2==0):
